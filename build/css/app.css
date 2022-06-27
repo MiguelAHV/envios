@@ -412,8 +412,27 @@ h3 {
 }
 .header__logo {
   width: 30rem;
+  margin-bottom: 3rem;
+}
+@media (min-width: 1024px) {
+  .header__logo {
+    margin-bottom: 0;
+  }
 }
 
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .navegacion {
+    flex-direction: row;
+    width: auto;
+  }
+}
 .navegacion__link {
   font-size: 2rem;
   font-weight: 700;
@@ -442,4 +461,3 @@ h3 {
     width: auto;
   }
 }
-/*# sourceMappingURL=app.css.map */
