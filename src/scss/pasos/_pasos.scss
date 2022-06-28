@@ -25,4 +25,11 @@
             @include m.grid(3, 3rem);
         }
     }
+
+    &__imagen {
+        transition: transform 300ms ease-in-out;
+        &:hover {
+            transform: rotate(-4deg) scale(1.2);
+        }
+    }
 }
